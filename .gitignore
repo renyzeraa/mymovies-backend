@@ -1,5 +1,4 @@
 node_modules
-database.db
 *.vscode
 uploads/*.png
 uploads/*.jpg
