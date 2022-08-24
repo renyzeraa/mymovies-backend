@@ -8,9 +8,7 @@ A ideia agora foi fazer o deploy da aplicação em Node.js, nossa API do My Movi
 
 Antes do Deploy foi visto sobre o que é Dados Sensíveis (Senhas, dados, etc.) da nossa aplicação do backend. Foi criada uma variável de ambiente, na qual tem o papel de "cuidará" dos dados sensíveis dos usuários e da aplicação em si, na qual é um arquivo .env que segue padrões de segurança.
 
-Para o backend manter funcionando, foi aplicado a biblioteca PM2, que ira manter funcionando 24/7 (24hrs e 7 dias da semana) nossa API/Servidor.
-
-O backend Foi implantado no Heroku
+Para o backend manter funcionando, foi aplicado a biblioteca PM2, que ira manter funcionando 24/7 (24hrs e 7 dias da semana) nossa API/Servidor.O backend Foi implantado no Heroku
 
 ---
 
