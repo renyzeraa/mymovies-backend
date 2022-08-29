@@ -6,7 +6,8 @@
     "start": "pm2-runtime start ecosystem.config.js --env production",
     "dev": "nodemon ./src/server.js",
     "migrate": "knex migrate:latest",
-    "rollback": "knex migrate:rollback --all && knex migrate:latest"
+    "rollback": "knex migrate:rollback --all && knex migrate:latest",
+    "test": "jest"
   },
   "author": "Renan Leandro da Silva",
   "license": "ISC",
@@ -26,6 +27,7 @@
     "sweetalert2": "^11.4.29"
   },
   "devDependencies": {
+    "jest": "^29.0.1",
     "nodemon": "^2.0.19"
   }
 }
